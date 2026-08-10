@@ -1,0 +1,28 @@
+{
+  "name": "devops-24eskcs076",
+  "version": "1.0.0",
+  "description": "CloudTask - Cloud-Native Full-Stack DevOps Task Platform (CSUL511 - B.Tech CSE Semester V)",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/**/*.test.js",
+    "lint": "node --check src/**/*.js test/**/*.js"
+  },
+  "keywords": [
+    "devops",
+    "docker",
+    "kubernetes",
+    "prometheus",
+    "ci-cd",
+    "github-actions",
+    "jenkins",
+    "csul511"
+  ],
+  "author": "Ayush (24ESKCS076)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
