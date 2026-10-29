@@ -1,0 +1,24 @@
+openapi: 3.0.3
+info:
+  title: CloudTask DevOps API
+  version: 1.0.0
+  description: Microservices API for DevOps Practices and Principles (CSUL511)
+paths:
+  /health:
+    get:
+      summary: Health check endpoint
+      responses:
+        '200':
+          description: Service is healthy
+  /metrics:
+    get:
+      summary: Prometheus metrics exporter
+      responses:
+        '200':
+          description: Standard Prometheus text format
+  /api/tasks:
+    get:
+      summary: List all tasks
+      responses:
+        '200':
+          description: Array of tasks
